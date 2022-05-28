@@ -92,6 +92,9 @@ MonoBehaviour:
   _startPrice: 100
   _priceInc: 1
   _ownerType: 1
+  _unlockThisPerks:
+  - {fileID: 4564611964583763357}
+  - {fileID: 4564611963869631407}
   _ability: {fileID: 4564611964159349583}
 --- !u!1 &4564611963869631405
 GameObject:
@@ -140,6 +143,7 @@ MonoBehaviour:
   _startPrice: 20
   _priceInc: 1.6
   _ownerType: 1
+  _unlockThisPerks: []
   _action: {fileID: 4564611965654444530}
   _potency: 3
 --- !u!1 &4564611963934630451
@@ -189,6 +193,9 @@ MonoBehaviour:
   _startPrice: 50
   _priceInc: 1
   _ownerType: 1
+  _unlockThisPerks:
+  - {fileID: 4564611964767662995}
+  - {fileID: 4564611965321563467}
   _ability: {fileID: 4564611965351211267}
 --- !u!1 &4564611963937487436
 GameObject:
@@ -386,6 +393,7 @@ MonoBehaviour:
   _startPrice: 30
   _priceInc: 1.6
   _ownerType: 1
+  _unlockThisPerks: []
   _buff: {fileID: 4564611965361974002}
   _value: 2
 --- !u!1 &4564611964330486021
@@ -486,6 +494,7 @@ MonoBehaviour:
   _startPrice: 10
   _priceInc: 1.6
   _ownerType: 1
+  _unlockThisPerks: []
   _ability: {fileID: 4564611965063328499}
   _value: 1
 --- !u!1 &4564611964347405712
@@ -535,6 +544,10 @@ MonoBehaviour:
   _startPrice: 30
   _priceInc: 1
   _ownerType: 1
+  _unlockThisPerks:
+  - {fileID: 4564611964339740826}
+  - {fileID: 4564611964387999009}
+  - {fileID: 4564611963749433642}
   _ability: {fileID: 4564611965063328499}
 --- !u!1 &4564611964387999023
 GameObject:
@@ -583,6 +596,7 @@ MonoBehaviour:
   _startPrice: 50
   _priceInc: 1.6
   _ownerType: 1
+  _unlockThisPerks: []
   _buff: {fileID: 4564611964124681937}
   _value: 1
 --- !u!1 &4564611964434483583
@@ -635,6 +649,7 @@ MonoBehaviour:
     _dex: 15
     _int: 5
   _startingPerk: {fileID: 4564611964512957990}
+  _deckPf: {fileID: 4157731383971616655, guid: 750960f192a8d804185c8fd587bbdf2b, type: 3}
 --- !u!1 &4564611964512957988
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,6 +697,11 @@ MonoBehaviour:
   _startPrice: 0
   _priceInc: 0
   _ownerType: 1
+  _unlockThisPerks:
+  - {fileID: 4564611964534494738}
+  - {fileID: 4564611965177845170}
+  - {fileID: 4564611964725898753}
+  - {fileID: 4564611964347405714}
   _ability: {fileID: 4564611963937487438}
 --- !u!1 &4564611964534494736
 GameObject:
@@ -730,6 +750,7 @@ MonoBehaviour:
   _startPrice: 5
   _priceInc: 1.6
   _ownerType: 1
+  _unlockThisPerks: []
   _action: {fileID: 4564611965654444530}
   _potency: 2
 --- !u!1 &4564611964555618726
@@ -824,6 +845,7 @@ MonoBehaviour:
   _startPrice: 20
   _priceInc: 1.6
   _ownerType: 1
+  _unlockThisPerks: []
   _ability: {fileID: 4564611964159349583}
   _value: 1
 --- !u!1 &4564611964587429418
@@ -953,6 +975,10 @@ MonoBehaviour:
   _startPrice: 10
   _priceInc: 1
   _ownerType: 1
+  _unlockThisPerks:
+  - {fileID: 4564611964213812844}
+  - {fileID: 4564611963934630453}
+  - {fileID: 4564611965375284887}
   _ability: {fileID: 4564611964330486023}
 --- !u!1 &4564611964767662993
 GameObject:
@@ -1001,6 +1027,7 @@ MonoBehaviour:
   _startPrice: 15
   _priceInc: 1.6
   _ownerType: 1
+  _unlockThisPerks: []
   _ability: {fileID: 4564611965351211267}
   _value: 1
 --- !u!1 &4564611964810831039
@@ -1258,6 +1285,7 @@ MonoBehaviour:
   _startPrice: 10
   _priceInc: 1.4
   _ownerType: 1
+  _unlockThisPerks: []
   _stat: 1
   _value: 1
 --- !u!1 &4564611965210386074
@@ -1352,6 +1380,7 @@ MonoBehaviour:
   _startPrice: 50
   _priceInc: 1.6
   _ownerType: 1
+  _unlockThisPerks: []
   _dot: {fileID: 4564611965457943090}
   _value: 2
 --- !u!1 &4564611965351211265
@@ -1501,6 +1530,7 @@ MonoBehaviour:
   _startPrice: 5
   _priceInc: 1.6
   _ownerType: 1
+  _unlockThisPerks: []
   _ability: {fileID: 4564611964330486023}
   _value: 1
 --- !u!1 &4564611965457943088

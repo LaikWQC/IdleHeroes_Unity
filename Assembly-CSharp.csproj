@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,28 +53,32 @@
     <UnityVersion>2020.3.27f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\Scripts\Perks\BuffValuePerkData.cs" />
-    <Compile Include="Assets\Scripts\Perks\AbilityPerkData.cs" />
+    <Compile Include="Assets\Scripts\Perks\Data\BuffValuePerkData.cs" />
+    <Compile Include="Assets\Scripts\Perks\Data\AbilityPerkData.cs" />
     <Compile Include="Assets\Scripts\HeroStatisticContainer.cs" />
-    <Compile Include="Assets\Scripts\Perks\AbilityChancePerkData.cs" />
-    <Compile Include="Assets\Scripts\Perks\ActionPotencyPerkData.cs" />
+    <Compile Include="Assets\Scripts\Perks\Data\AbilityChancePerkData.cs" />
+    <Compile Include="Assets\Scripts\Perks\PerkDeck.cs" />
+    <Compile Include="Assets\Scripts\Perks\Data\ActionPotencyPerkData.cs" />
     <Compile Include="Assets\Scripts\WeaponData.cs" />
     <Compile Include="Assets\Scripts\JobData.cs" />
     <Compile Include="Assets\Scripts\HeroData.cs" />
     <Compile Include="Assets\Scripts\ActionData\DamageActionData.cs" />
-    <Compile Include="Assets\Scripts\Perks\PerkData.cs" />
+    <Compile Include="Assets\Scripts\Perks\Data\PerkData.cs" />
     <Compile Include="Assets\Scripts\ActionData\EffectActionData.cs" />
     <Compile Include="Assets\Scripts\ActionData\ActionData.cs" />
     <Compile Include="Assets\Scripts\EffectData\EffectData.cs" />
-    <Compile Include="Assets\Scripts\Perks\StatPerkData.cs" />
+    <Compile Include="Assets\Scripts\Perks\Data\StatPerkData.cs" />
+    <Compile Include="Assets\Scripts\Perks\Info\PerkDisplay.cs" />
     <Compile Include="Assets\Scripts\AbilityData.cs" />
     <Compile Include="Assets\Scripts\EffectData\BuffEffectData.cs" />
-    <Compile Include="Assets\Scripts\Perks\DotPotencyPerkData.cs" />
+    <Compile Include="Assets\Scripts\Perks\Data\DotPotencyPerkData.cs" />
     <Compile Include="Assets\Scripts\HeroStats.cs" />
     <Compile Include="Assets\Scripts\EffectData\DoTEffectData.cs" />
+    <Compile Include="Assets\Scripts\Windows\Window.cs" />
+    <Compile Include="Assets\Scripts\Windows\PerksWindow.cs" />
+    <Compile Include="Assets\Scripts\Room.cs" />
+    <Compile Include="Assets\Scripts\RoomManager.cs" />
+    <Compile Include="Assets\Scripts\MouseInteractions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

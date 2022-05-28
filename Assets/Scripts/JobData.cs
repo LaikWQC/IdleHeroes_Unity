@@ -6,6 +6,7 @@ public class JobData : MonoBehaviour
 {
     [SerializeField] HeroStats _stats = new HeroStats();
     [SerializeField] PerkData _startingPerk;
+    [SerializeField] PerkDeck _deckPf;
 
     public void Init(HeroData hero)
     {
@@ -14,12 +15,13 @@ public class JobData : MonoBehaviour
         DefaultWeapon = GetComponentInChildren<WeaponData>();
         Perks = GetComponentsInChildren<PerkData>();
         foreach (var perk in Perks) perk.Init(this);
-        _startingPerk?.BuyForFree();
+        _startingPerk?.InitialUnlock();
     }
 
     public HeroData Hero { get; private set; }
+    public PerkDeck DeckPf => _deckPf;
     public WeaponData DefaultWeapon { get; private set; }
     public PerkData[] Perks { get; private set; }
     public HeroStatisticContainer Statistic { get; private set; }
-    public int Exp { get; set; } = 0;
+    public int Exp { get; set; } = 500;
 }
